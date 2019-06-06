@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.0.0b4 (2019-06-06)
+--------------------
+- Fix a bug for PySide2 as backend.
+
 1.0.0b3 (2019-06-04)
 --------------------
 - Adding a monkey-patch for vtk.qt (vtk==8.1.x).

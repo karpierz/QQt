@@ -15,11 +15,11 @@ sys.modules[__name__] = sys.modules[origin]
 for name, module in sys.modules.copy().items():
     if name.startswith(origin + "."):
         sys.modules[__name__ + name[len(origin):]] = sys.modules[name]
-del origin
 
 # Monkey-patch for vtk.qt (vtk==8.1.2) for PySide2 as backend.
 
 try:
+    import vtk
     from vtk.qt import PyQtImpl
 except ImportError:
     PyQtImpl = None
@@ -33,8 +33,3 @@ else:
             from .vtk.qt import QVTKRenderWindowInteractor as patched
             sys.modules[__name__] = sys.modules[origin]
             sys.modules["vtk.qt.QVTKRenderWindowInteractor"] = patched
-            del patched
-del PyQtImpl
-
-del QQt
-del sys
