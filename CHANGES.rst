@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.0.0b5 (2019-06-10)
+---------------------
+- Adding setup extras PySide and PyQt for installing PySide2 or PyQt5 backends.
+
 1.0.0b4 (2019-06-06)
 --------------------
 - Fix a bug for PySide2 as backend.
