@@ -1,8 +1,21 @@
 Changelog
 =========
 
-1.0.0b5 (2019-06-10)
+1.1.0rc2 (2019-08-02)
 ---------------------
+- StreamEmitter class added.
+
+1.1.0rc1 (2019-07-23)
+---------------------
+- | Requirements upgrade:
+  | QtPy    to at least 1.9.0
+  | PySide2 to at least 5.13.0
+  | PyQt5   to at least 5.13.0
+  | This allows to have applications that import PySide2 and PyQt5 at the same time
+  | (which is possible if both bindings are compiled for the same Qt version).
+
+1.0.0b5 (2019-06-10)
+--------------------
 - Adding setup extras PySide and PyQt for installing PySide2 or PyQt5 backends.
 
 1.0.0b4 (2019-06-06)

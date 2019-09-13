@@ -2,15 +2,19 @@
 # Licensed under the zlib/libpng License
 # http://opensource.org/licenses/zlib/
 
-from . __config__ import * ; del __config__
-from .__about__   import * ; del __about__
+from .__config__ import origin
+from .__about__  import * ; del __about__
 
 import sys
+__import__(origin)
+
 QQt = sys.modules[__name__]
+
+# Utils
+from .utils import StreamEmitter
 
 # Wrapper for origin.
 
-__import__(origin)
 sys.modules[__name__] = sys.modules[origin]
 for name, module in sys.modules.copy().items():
     if name.startswith(origin + "."):
@@ -33,3 +37,5 @@ else:
             from .vtk.qt import QVTKRenderWindowInteractor as patched
             sys.modules[__name__] = sys.modules[origin]
             sys.modules["vtk.qt.QVTKRenderWindowInteractor"] = patched
+
+sys.modules[origin].StreamEmitter = StreamEmitter
