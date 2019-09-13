@@ -1,6 +1,12 @@
 Changelog
 =========
 
+1.1.0rc3 (2019-09-13)
+---------------------
+- | Requirements upgrade:
+  | PySide2 to at least 5.13.1
+- Adding of (for now fake/empty) test case.
+
 1.1.0rc2 (2019-08-02)
 ---------------------
 - StreamEmitter class added.
