@@ -15,13 +15,13 @@ Prerequisites:
 
 + Python 3.5 or later
 
-  * http://www.python.org/
+  * https://www.python.org/
   * 3.7 is a primary test environment.
 
 + pip and setuptools
 
-  * http://pypi.org/project/pip/
-  * http://pypi.org/project/setuptools/
+  * https://pypi.org/project/pip/
+  * https://pypi.org/project/setuptools/
 
 To install run::
 
@@ -54,7 +54,7 @@ License
   | Copyright (c) 2012-2019 Adam Karpierz
   |
   | Licensed under the zlib/libpng License
-  | http://opensource.org/licenses/zlib/
+  | https://opensource.org/licenses/zlib/
   | Please refer to the accompanying LICENSE file.
 
 Authors

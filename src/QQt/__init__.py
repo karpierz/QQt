@@ -1,6 +1,6 @@
 # Copyright (c) 2012-2019 Adam Karpierz
 # Licensed under the zlib/libpng License
-# http://opensource.org/licenses/zlib/
+# https://opensource.org/licenses/zlib/
 
 from .__config__ import origin
 from .__about__  import * ; del __about__
