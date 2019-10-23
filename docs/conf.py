@@ -59,6 +59,9 @@ extensions = [
     'sphinx.ext.napoleon',
 ]
 
+# Needed for e.g. linkcheck builder
+tls_verify = False
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
@@ -92,6 +95,12 @@ html_static_path = ['_static']
 
 
 # -- Extension configuration -------------------------------------------------
+
+# -- Options for apidoc extension --------------------------------------------
+
+apidoc_separate_modules = True
+apidoc_module_first = True
+apidoc_output_dir = 'api'
 
 # -- Options for intersphinx extension ---------------------------------------
 
