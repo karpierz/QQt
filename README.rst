@@ -23,24 +23,36 @@ Prerequisites:
   * https://pypi.org/project/pip/
   * https://pypi.org/project/setuptools/
 
-To install run::
+To install run:
 
-    python -m pip install --upgrade QQt
+.. parsed-literal::
+
+    python -m pip install --upgrade |package|
 
 Development
 ===========
 
-Visit `development page <https://github.com/karpierz/QQt/>`__
+Visit `development page`_.
 
 Installation from sources:
 
-Clone the `sources <https://github.com/karpierz/QQt/>`__ and run::
+clone the sources:
 
-    python -m pip install ./QQt
+.. parsed-literal::
 
-or on development mode::
+    git clone |respository| |package|
 
-    python -m pip install --editable ./QQt
+and run:
+
+.. parsed-literal::
+
+    python -m pip install ./|package|
+
+or on development mode:
+
+.. parsed-literal::
+
+    python -m pip install --editable ./|package|
 
 Prerequisites:
 
@@ -62,4 +74,6 @@ Authors
 
 * Adam Karpierz <adam@karpierz.net>
 
-.. _`development page`: https://github.com/karpierz/QQt/
+.. |package| replace:: QQt
+.. |respository| replace:: https://github.com/karpierz/|package|.git
+.. _development page: https://github.com/karpierz/|package|/

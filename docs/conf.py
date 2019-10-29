@@ -2,7 +2,7 @@
 #
 # This file only contains a selection of the most common options. For a full
 # list see the documentation:
-# http://www.sphinx-doc.org/en/master/config
+# https://www.sphinx-doc.org/en/master/usage/configuration.html
 
 import sys
 import os
@@ -31,9 +31,6 @@ def setup(app):
 project   = about.__title__
 copyright = about.__copyright__
 author    = about.__author__
-
-# The short X.Y version
-version = '{0.major}.{0.minor}'.format(about.__version_info__)
 
 # The full version, including alpha/beta/rc tags
 release = about.__version__
