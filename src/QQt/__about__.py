@@ -9,7 +9,7 @@ __all__ = ('__title__', '__summary__', '__uri__', '__version_info__',
 __title__        = "QQt"
 __summary__      = "Wrapper for various PySide2/PyQt5 related packages."
 __uri__          = "https://pypi.org/project/QQt/"
-__version_info__ = type("version_info", (), dict(serial=7,
+__version_info__ = type("version_info", (), dict(serial=8,
                         major=1, minor=1, micro=0, releaselevel="rc"))
 __version__      = "{0.major}.{0.minor}.{0.micro}{1}{2}".format(__version_info__,
                    dict(final="", alpha="a", beta="b", rc="rc")[__version_info__.releaselevel],

@@ -1,11 +1,17 @@
 Changelog
 =========
 
+1.1.0rc8 (2019-11-06)
+---------------------
+- | Requirements upgrade:
+  | PySide2 to at least 5.13.2
+  | PyQt5   to at least 5.13.2
+
 1.1.0rc7 (2019-10-29)
 ---------------------
 - | Requirements upgrade:
   | PySide2 to at least 5.13.1
-  | PyQt5   to at least 5.13.1.
+  | PyQt5   to at least 5.13.1
 - Adding of (for now fake/empty) test case.
 - Setup updates and cleanup.
 
