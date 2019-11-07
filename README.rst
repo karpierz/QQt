@@ -58,7 +58,7 @@ Prerequisites:
 
 + Development is strictly based on *tox*. To install it run::
 
-    python -m pip install tox
+    python -m pip install --upgrade tox
 
 License
 =======
