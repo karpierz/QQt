@@ -75,5 +75,6 @@ Authors
 * Adam Karpierz <adam@karpierz.net>
 
 .. |package| replace:: QQt
+.. |package_bold| replace:: **QQt**
 .. |respository| replace:: https://github.com/karpierz/QQt.git
 .. _development page: https://github.com/karpierz/QQt/
