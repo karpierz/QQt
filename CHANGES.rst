@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.1.0rc8 (2019-11-13)
+1.1.0rc9 (2019-11-13)
 ---------------------
 - | Requirements upgrade:
   | PySide2 to at least 5.13.2
