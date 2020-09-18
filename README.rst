@@ -32,6 +32,12 @@ To install run:
 Development
 ===========
 
+Prerequisites:
+
++ Development is strictly based on *tox*. To install it run::
+
+    python -m pip install --upgrade tox
+
 Visit `development page`_.
 
 Installation from sources:
@@ -54,19 +60,13 @@ or on development mode:
 
     python -m pip install --editable ./|package|
 
-Prerequisites:
-
-+ Development is strictly based on *tox*. To install it run::
-
-    python -m pip install --upgrade tox
-
 License
 =======
 
-  | Copyright (c) 2012-2019 Adam Karpierz
+  | Copyright (c) 2012-2020 Adam Karpierz
   |
   | Licensed under the zlib/libpng License
-  | https://opensource.org/licenses/zlib/
+  | https://opensource.org/licenses/Zlib
   | Please refer to the accompanying LICENSE file.
 
 Authors
@@ -77,4 +77,5 @@ Authors
 .. |package| replace:: QQt
 .. |package_bold| replace:: **QQt**
 .. |respository| replace:: https://github.com/karpierz/QQt.git
+.. _PyPI record: https://pypi.org/project/QQt/
 .. _development page: https://github.com/karpierz/QQt/

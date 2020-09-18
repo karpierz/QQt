@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.1.1rc1 (2020-09-17)
+---------------------
+- Add support for Python 3.8 and 3.9.
+- Setup general update and cleanup.
+
 1.1.0rc9 (2019-11-13)
 ---------------------
 - | Requirements upgrade:
