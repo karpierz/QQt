@@ -3,7 +3,7 @@
 # https://opensource.org/licenses/Zlib
 
 from .__config__ import origin
-from .__about__  import * ; del __about__
+from .__about__  import * ; del __about__  # noqa
 
 import sys
 __import__(origin)

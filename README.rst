@@ -8,6 +8,8 @@ Overview
 
 TBD...
 
+`PyPI record`_.
+
 Installation
 ============
 
@@ -25,7 +27,7 @@ Prerequisites:
 
 To install run:
 
-.. parsed-literal::
+  .. parsed-literal::
 
     python -m pip install --upgrade |package|
 
@@ -44,19 +46,19 @@ Installation from sources:
 
 clone the sources:
 
-.. parsed-literal::
+  .. parsed-literal::
 
     git clone |respository| |package|
 
 and run:
 
-.. parsed-literal::
+  .. parsed-literal::
 
     python -m pip install ./|package|
 
 or on development mode:
 
-.. parsed-literal::
+  .. parsed-literal::
 
     python -m pip install --editable ./|package|
 
@@ -64,7 +66,6 @@ License
 =======
 
   | Copyright (c) 2012-2020 Adam Karpierz
-  |
   | Licensed under the zlib/libpng License
   | https://opensource.org/licenses/Zlib
   | Please refer to the accompanying LICENSE file.
@@ -77,5 +78,5 @@ Authors
 .. |package| replace:: QQt
 .. |package_bold| replace:: **QQt**
 .. |respository| replace:: https://github.com/karpierz/QQt.git
-.. _PyPI record: https://pypi.org/project/QQt/
 .. _development page: https://github.com/karpierz/QQt/
+.. _PyPI record: https://pypi.org/project/QQt/
