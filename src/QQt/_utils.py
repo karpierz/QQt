@@ -2,10 +2,9 @@
 # Licensed under the zlib/libpng License
 # https://opensource.org/licenses/Zlib
 
-from .__config__ import origin
-
 __all__ = ('StreamEmitter',)
 
+from .__config__ import origin
 origin = __import__(origin, globals(), locals(), ["QtCore"], 0)
 
 

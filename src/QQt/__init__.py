@@ -2,8 +2,8 @@
 # Licensed under the zlib/libpng License
 # https://opensource.org/licenses/Zlib
 
-from .__config__ import origin
 from .__about__  import * ; del __about__  # noqa
+from .__config__ import origin
 
 import sys
 __import__(origin)
@@ -11,7 +11,7 @@ __import__(origin)
 QQt = sys.modules[__name__]
 
 # Utils
-from .utils import StreamEmitter
+from ._utils import StreamEmitter
 
 # Wrapper for origin.
 
