@@ -1,6 +1,7 @@
 QQt documentation
 =================
 
+.. _readme:
 .. include:: README.rst
 
 Changes

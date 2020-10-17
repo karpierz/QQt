@@ -1,14 +1,12 @@
 Changelog
 =========
 
-1.1.1rc5 (2020-09-30)
+1.1.1rc6 (2020-10-17)
 ---------------------
 - Drop support for Python 3.5.
-
-1.1.1rc2 (2020-09-22)
----------------------
 - Setup general update and cleanup.
 - Setup: fix an improper dependencies versions.
+- Fixed docs setup.
 
 1.1.0rc9 (2019-11-13)
 ---------------------
