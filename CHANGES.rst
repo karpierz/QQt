@@ -1,6 +1,12 @@
 Changelog
 =========
 
+1.1.1 (2023-02-28)
+------------------
+- Tox configuration has been moved to pyproject.toml
+- Drop support for Python 3.6.
+- Setup general update and cleanup.
+
 1.1.1rc7 (2020-10-18)
 ---------------------
 - Drop support for Python 3.5.

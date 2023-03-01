@@ -10,12 +10,14 @@ TBD...
 
 `PyPI record`_.
 
+`Documentation`_.
+
 Installation
 ============
 
 Prerequisites:
 
-+ Python 3.6 or higher
++ Python 3.7 or higher
 
   * https://www.python.org/
   * 3.7 is a primary test environment.
@@ -65,7 +67,7 @@ or on development mode:
 License
 =======
 
-  | Copyright (c) 2012-2020 Adam Karpierz
+  | Copyright (c) 2012-2023 Adam Karpierz
   | Licensed under the zlib/libpng License
   | https://opensource.org/licenses/Zlib
   | Please refer to the accompanying LICENSE file.
@@ -78,5 +80,6 @@ Authors
 .. |package| replace:: QQt
 .. |package_bold| replace:: **QQt**
 .. |respository| replace:: https://github.com/karpierz/QQt.git
-.. _development page: https://github.com/karpierz/QQt/
+.. _development page: https://github.com/karpierz/QQt
 .. _PyPI record: https://pypi.org/project/QQt/
+.. _Documentation: https://QQt.readthedocs.io/
