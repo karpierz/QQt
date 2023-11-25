@@ -1,7 +1,7 @@
 QQt
 ===
 
-Wrapper for various PySide2/PyQt5 related packages.
+Wrapper for various PySide2/PyQt5 and PySide6/PyQt6 related packages.
 
 Overview
 ========
@@ -12,15 +12,19 @@ TBD...
 
 `Documentation`_.
 
+Usage
+-----
+
+TBD...
+
 Installation
 ============
 
 Prerequisites:
 
-+ Python 3.7 or higher
++ Python 3.8 or higher
 
   * https://www.python.org/
-  * 3.7 is a primary test environment.
 
 + pip and setuptools
 
@@ -42,7 +46,7 @@ Prerequisites:
 
     python -m pip install --upgrade tox
 
-Visit `development page`_.
+Visit `Development page`_.
 
 Installation from sources:
 
@@ -80,6 +84,6 @@ Authors
 .. |package| replace:: QQt
 .. |package_bold| replace:: **QQt**
 .. |respository| replace:: https://github.com/karpierz/QQt.git
-.. _development page: https://github.com/karpierz/QQt
+.. _Development page: https://github.com/karpierz/QQt
 .. _PyPI record: https://pypi.org/project/QQt/
 .. _Documentation: https://QQt.readthedocs.io/
