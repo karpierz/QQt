@@ -1,6 +1,6 @@
-# Copyright (c) 2012-2023 Adam Karpierz
+# Copyright (c) 2012 Adam Karpierz
 # Licensed under the zlib/libpng License
-# https://opensource.org/licenses/Zlib
+# https://opensource.org/license/zlib
 
 import unittest
 
@@ -12,5 +12,5 @@ class MainTestCase(unittest.TestCase):
     def setUp(self):
         pass
 
-    def test(self):
-        """Main test"""
+    def test_main(self):
+        pass

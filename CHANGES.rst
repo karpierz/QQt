@@ -1,21 +1,28 @@
 Changelog
 =========
 
+1.2.1 (2024-01-26)
+------------------
+- Setup update (now based on tox >= 4.0).
+- Add support for PyPy 3.9 and 3.10
+- Copyright year update.
+- Cleanup.
+
 1.2.0 (2023-11-22)
 ------------------
-- Drop support for Python 3.7.
-- Add  support for Python 3.12.
+- Add  support for Python 3.12
+- Drop support for Python 3.7
 - Setup (dependencies) update.
 
 1.1.1 (2023-02-28)
 ------------------
-- Tox configuration has been moved to pyproject.toml
+- Add  support for Python 3.8, 3.9, 3.10 and 3.11
 - Drop support for Python 3.6.
 - Setup general update and cleanup.
 
 1.1.1rc7 (2020-10-18)
 ---------------------
-- Drop support for Python 3.5.
+- Drop support for Python 3.5
 - Setup general update and cleanup.
 - Setup: fix an improper dependencies versions.
 - Fixed docs setup.
